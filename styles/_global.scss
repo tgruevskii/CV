@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(179, 139, 109,0.2);
+}
+
+ .up {
+   
+    position:fixed;
+    bottom:6rem;
+    right:6rem;
+    width:6rem;
+    height:6rem;
+    background-color:rgb(203, 117, 117);
+    border-radius:1rem;
+    border:none; 
+    display:none;
+}

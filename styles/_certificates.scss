@@ -1,0 +1,36 @@
+.certificates{
+    font-size:2rem;
+    text-align:center;
+    height:80vh;
+    margin:5rem auto;
+    
+    & h2,p{
+        margin:3rem auto;
+        font-weight: 250;
+    }
+
+    & .certificates-wrapper{
+        margin:5rem auto 8rem auto;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        gap:10%;
+    }
+
+    & .certificates__card{
+        height:35rem;
+        width:30rem;
+        border:1px solid black;
+        border-radius:2rem;
+        padding:2rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       & img{
+            width:20rem;
+        }
+    }
+}

@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(179, 139, 109, 0.2);
+}
+
+.up {
+  position: fixed;
+  bottom: 6rem;
+  right: 6rem;
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(203, 117, 117);
+  border-radius: 1rem;
+  border: none;
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(179, 139, 109, 0.2);
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+.navigation nav {
+  width: 50%;
+}
+.navigation nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  list-style: none;
+}
+.navigation nav ul a {
+  color: black;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.logo {
+  width: 50%;
+  padding: 2.5rem 1rem 1rem 8rem;
+}
+.logo h2 {
+  font-family: "Borel", cursive;
+  font-size: 3rem;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.intro {
+  height: 90vh;
+}
+
+.img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  gap: 3%;
+  padding-top: 15rem;
+  margin-bottom: 10rem;
+}
+.img-text img {
+  width: 30rem;
+}
+.img-text h1 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+.img-text p {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 1.9;
+  font-weight: 250;
+}
+
+.intro-footer {
+  width: 100%;
+  text-align: center;
+}
+.intro-footer h4 {
+  font-weight: 250;
+  font-size: 3rem;
+  margin: 3rem auto;
+}
+
+.socials {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 7%;
+}
+.socials img {
+  width: 5rem;
+}
+
+.intro-about {
+  width: 60%;
+  margin: auto;
+}
+
+.certificates {
+  font-size: 2rem;
+  text-align: center;
+  height: 80vh;
+  margin: 5rem auto;
+}
+.certificates h2, .certificates p {
+  margin: 3rem auto;
+  font-weight: 250;
+}
+.certificates .certificates-wrapper {
+  margin: 5rem auto 8rem auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.certificates .certificates__card {
+  height: 35rem;
+  width: 30rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certificates .certificates__card img {
+  width: 20rem;
+}
+
+.skills {
+  padding-top: 8rem;
+  width: 100%;
+  height: 60vh;
+  background: rgba(179, 139, 109, 0.1);
+}
+.skills .skills-heading {
+  font-size: 2rem;
+}
+.skills .skills-heading h2,
+.skills .skills-heading p {
+  font-weight: 250;
+  text-align: center;
+}
+.skills .skills-heading p {
+  margin: 3rem auto;
+}
+.skills .my-skills {
+  display: grid;
+  width: 60%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.skills .my-skills p {
+  font-size: 2rem;
+  font-weight: 250;
+}
+.skills .my-skills .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .my-skills .grid-item p {
+  margin: 1rem;
+}
+
+.skills-wrapper {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: start;
+}
+.skills-wrapper h4 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.skills-wrapper p {
+  font-size: 2rem;
+  font-weight: 250;
+  margin: 1rem;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.footer p {
+  font-size: 3rem;
+  font-weight: 250;
+}
+.footer img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.projects-wrapper {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.projects-wrapper img {
+  width: 40rem;
+  height: 25rem;
+}
+.projects-wrapper h4 {
+  font-size: 3rem;
+  font-weight: 250;
+  margin-top: 2rem;
+}
+
+.code {
+  font-size: 3rem;
+  font-weight: 250;
+  margin-top: 10rem;
+  text-align: center;
+}
+.code img {
+  margin-top: 3rem;
+  width: 5rem;
+}/*# sourceMappingURL=styles.css.map */

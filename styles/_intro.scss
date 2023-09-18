@@ -1,0 +1,55 @@
+.intro{
+    height:90vh;
+}
+
+.img-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis:50%;
+    gap:3%;
+    padding-top:15rem;
+    margin-bottom:10rem;
+    
+
+    & img{
+        width:30rem;
+    }
+
+    & h1{
+        font-size:4rem;
+        font-weight: 200;
+    }
+    & p{
+        font-size:2rem;
+        margin-top:2rem;
+        line-height: 1.9;
+        font-weight: 250;
+    }
+}
+.intro-footer{
+    width:100%;
+    text-align: center;
+
+    & h4{
+        font-weight: 250;
+        font-size:3rem;
+        margin:3rem auto;
+    }
+}
+.socials{
+    margin-top:4rem;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    gap:7%;
+
+    & img{
+        width:5rem;
+    }
+}
+
+.intro-about{
+    width:60%;
+    margin:auto;
+}
